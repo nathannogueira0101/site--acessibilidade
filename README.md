@@ -1,1 +1,159 @@
 # site--acessibilidade
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portal Futebol - Layout</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --container-w:900px;
+      --container-h:480px;
+    }
+    body {
+      background: #222;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      margin:0;
+      font-family: "Montserrat", sans-serif;
+    }
+    .card {
+      width:var(--container-w);
+      height:var(--container-h);
+      position:relative;
+      border-radius:12px;
+      overflow:hidden;
+      background: url('https://img.cdndsgni.com/preview/10321525.jpg') center/cover no-repeat;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+    .overlay {
+      position:absolute;
+      inset:0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.12), rgba(0,0,0,0.18));
+      pointer-events:none;
+    }
+    .left-panel {
+      position:absolute;
+      top:36px;
+      left:36px;
+      width:420px;
+      height:210px;
+      padding:20px 18px;
+      background: linear-gradient(90deg,#f7e26b, #9ad24b);
+      border-radius:10px;
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      align-items:flex-start;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+      border:4px solid rgba(105,0,255,0.06);
+    }
+    .left-panel::after {
+      content:"";
+      position:absolute;
+      top:12px; left:12px; right:12px; bottom:12px;
+      border:3px solid rgba(88,0,255,0.55);
+      border-radius:6px;
+      pointer-events:none;
+    }
+    .left-panel .title {
+      margin:0 0 6px 0;
+      font-family: "Playfair Display", serif;
+      font-size:28px;
+      font-weight:900;
+      font-style:italic;
+      color:#0b0b0b;
+    }
+    .left-panel .subtitle {
+      margin:0;
+      font-family: "Playfair Display", serif;
+      font-size:34px;
+      line-height:1.1;
+      color:#061b00;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+    }
+    .top-pill {
+      position:absolute;
+      top:36px;
+      right:36px;
+      background:#0b57ff;
+      color:#fff;
+      padding:10px 18px;
+      border-radius:22px;
+      font-family:"Montserrat", sans-serif;
+      font-size:16px;
+      font-weight:700;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+    }
+    .player-card {
+      position:absolute;
+      top:110px;
+      right:36px;
+      width:260px;
+      height:200px;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      background:#ccc;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .player-card img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      filter: grayscale(0.2) contrast(1.05);
+    }
+    .small-bubble {
+      position:absolute;
+      bottom:36px;
+      left:36px;
+      width:220px;
+      height:60px;
+      background: linear-gradient(90deg, #eeeeee, #d6d6d6);
+      border-radius:12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family: "Playfair Display", serif;
+      font-size:15px;
+      font-weight:700;
+      color:#0b0b0b;
+      text-align:center;
+      padding:8px;
+    }
+    @media(max-width:980px){
+      .card { transform: scale(0.85); transform-origin: center; }
+    }
+    @media(max-width:760px){
+      body { padding:24px; }
+      .card { width:100%; height:400px; }
+      .left-panel { top:18px; left:18px; width:48%; }
+      .top-pill { top:18px; right:18px; }
+      .player-card { top:100px; right:18px; width:35%; height:170px; }
+      .small-bubble { bottom:18px; left:18px; width:46%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="overlay"></div>
+    <div class="left-panel">
+      <div class="title">Portal Futebol:</div>
+      <div class="subtitle">Fique por dentro<br>do seu time do<br>coração</div>
+    </div>
+    <div class="top-pill">Atualizações 24 horas</div>
+    <div class="player-card">
+      <img src="https://i.etsystatic.com/41905212/r/il/1a68b2/1530809155/il_1140xN.1530809155_nuf7.jpg" alt="Jogador">
+    </div>
+    <div class="small-bubble">
+      Saiba sobre seus<br>jogadores favoritos
+    </div>
+  </div>
+</body>
+</html>

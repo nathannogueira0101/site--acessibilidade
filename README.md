@@ -157,3 +157,21 @@
   </div>
 </body>
 </html>
+<section style="max-width:900px; margin:40px auto; padding:20px; background:#2f2f2f; border-radius:10px; display:flex; align-items:flex-start; gap:20px; color:#fff; font-family:'Montserrat', sans-serif;">
+  <!-- Texto explicativo com título e bolha de ícone -->
+  <div style="flex:1;">
+    <h2 style="margin:0 0 12px; font-family:'Playfair Display', serif; font-size:28px; color:#f5f5f5;">
+      Informações sobre o site
+      <span style="margin-left:8px; vertical-align:middle; font-size:24px;">ⓘ</span>
+    </h2>
+    <div style="background:#fff; color:#333; padding:16px; border-radius:8px; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+      No nosso site o telespectador terá todas as informações sobre seu time do peito, tendo disponíveis os jogos que foram passados caso alguém perdeu, os jogos que estão acontecendo AO VIVO!!<br><br>
+      Também, você terá com antecedência as escalações e entrevistas dos jogadores, antes e depois. Caso a pessoa não puder ouvir os jogos e entrevistas, teremos uma narração acontecendo logo abaixo do placar, assim ninguém perderá nada sobre seu timão.
+    </div>
+  </div>
+
+  <!-- Imagem do jogador à direita -->
+  <div style="flex:0 0 200px; border-radius:8px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+    <img src="PLAYER2_IMAGE_URL" alt="Jogador" style="width:100%; display:block; object-fit:cover;">
+  </div>
+</section>

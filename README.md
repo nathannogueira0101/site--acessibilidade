@@ -174,4 +174,55 @@
   <div style="flex:0 0 200px; border-radius:8px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.3);">
     <img src="PLAYER2_IMAGE_URL" alt="Jogador" style="width:100%; display:block; object-fit:cover;">
   </div>
+</section> 
+<section style="max-width:900px; margin:40px auto; padding:20px; background: linear-gradient(90deg, #1cb743, #005c0f); border-radius:10px; color:#000; font-family:'Montserrat', sans-serif; display:flex; align-items:center; gap:20px;">
+  <!-- Texto: Título e caixa de mensagem -->
+  <div style="flex:1;">
+    <h2 style="margin:0 0 15px; font-family:'Playfair Display', serif; font-size:30px; color:#000; text-align:center;">Comunicados</h2>
+    <div style="background:#3f7e00; color:#fff; padding:18px; border-radius:8px 20px 8px 8px; position:relative; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+      <!-- Ícone (lápis minimalista) -->
+      <div style="position:absolute; top:-14px; left:-14px; background:#fff; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 6px rgba(0,0,0,0.2); font-size:16px;">✏️</div>
+      <strong>Lembrete dos Jogos</strong>
+      <p style="margin-top:10px; font-size:16px; line-height:1.4;">
+        Faltando 30 minutos para o jogo começar, será notificado no seu celular que o jogo está prestes a começar
+      </p>
+    </div>
+    <!-- Botão de "Voltar ao Início" centralizado -->
+    <div style="margin-top:16px; text-align:center;">
+      <button style="padding:8px 16px; background:#000; color:#fff; border:none; border-radius:20px; font-size:14px; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+        VOLTAR AO INÍCIO
+      </button>
+    </div>
+  </div>
+
+  <!-- Imagem do jogador à direita -->
+  <div style="flex:0 0 200px; border-radius:8px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+    <img src="PLAYER3_IMAGE_URL" alt="Jogador em ação" style="width:100%; height:100%; object-fit:cover; display:block;">
+  </div>
 </section>
+<section style="max-width:900px; margin:40px auto; padding:20px; background: linear-gradient(90deg, #1cb743, #005c0f); border-radius:10px; color:#000; font-family:'Montserrat', sans-serif; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+  <!-- Texto: Título e caixa de mensagem -->
+  <div style="flex:1; min-width:280px;">
+    <h2 style="margin:0 0 15px; font-family:'Playfair Display', serif; font-size:30px; color:#fff; text-align:center;">Comunicados</h2>
+    <div style="background:#3f7e00; color:#fff; padding:18px; border-radius:8px 20px 8px 8px; position:relative; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+      <!-- Ícone (lápis minimalista) -->
+      <div style="position:absolute; top:-14px; left:-14px; background:#fff; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 6px rgba(0,0,0,0.2); font-size:16px;">✏️</div>
+      <strong>Lembrete dos Jogos</strong>
+      <p style="margin-top:10px; font-size:16px; line-height:1.4;">
+        Faltando 30 minutos para o jogo começar, será notificado no seu celular que o jogo está prestes a começar
+      </p>
+    </div>
+    <!-- Botão de "Voltar ao Início" centralizado -->
+    <div style="margin-top:16px; text-align:center;">
+      <button style="padding:8px 16px; background:#000; color:#fff; border:none; border-radius:20px; font-size:14px; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+        VOLTAR AO INÍCIO
+      </button>
+    </div>
+  </div>
+
+  <!-- Imagem do jogador à direita -->
+  <div style="flex:0 0 200px; border-radius:8px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.25); min-width:180px;">
+    <img src="e3ebff6c-ef50-46aa-a62c-0d5cb82a9681.png" alt="Jogador em ação" style="width:100%; height:100%; object-fit:cover; display:block;">
+  </div>
+</section>
+
